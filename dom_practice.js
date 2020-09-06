@@ -17,3 +17,10 @@ const myOldHouse = document.createElement('img')
 myOldHouse.setAttribute('src','./myoldhouse.jpg')
 
 content[1].appendChild(myOldHouse)
+
+//BONUS
+for (item of list) {
+    item.style.color ='mediumseagreen'
+}
+
+myOldHouse.remove()
