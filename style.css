@@ -1,0 +1,85 @@
+body {
+    background-color: teal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: lightcyan;
+}
+
+#minuteman {
+    width: 33%;
+    padding: 25px;
+    align-self: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.lib {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+h4,h3 {
+    font-weight: bold;
+    color: darkmagenta;
+    /* align-self: center; */
+    /* justify-content: center; */
+    margin: 0;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 25px;
+}
+
+h4 {
+    font-size: 18px;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 12px 0;
+    margin: 0;
+}
+
+ol{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    font-size: 14px;
+    list-style: none;
+    /* display: inline; */
+    text-align: left;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+div {
+    background-color: whitesmoke;
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#featured {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
